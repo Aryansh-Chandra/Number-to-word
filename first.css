@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    color: #333;
+}
+
+.app-container {
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: #f8f9fa;
+}
+
+
+.app-header {
+    background: linear-gradient(135deg, #4caf50, #008cba);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.app-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.app-header p {
+    margin: 5px 0 0;
+    font-size: 16px;
+}
+
+
+.converter {
+    padding: 20px;
+    text-align: center;
+}
+
+.converter input,
+.converter textarea {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.converter input:hover,
+.converter textarea:hover {
+    border-color:#45a049;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.converter textarea {
+    height: 60px;
+    resize: none;
+}
+
+.converter .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.converter button {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.converter button:hover {
+    background: #45a049;
+    transform: translateY(-2px);
+}
+
+
+
+.calculator {
+    margin: 20px 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.calculator-keys button {
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    background: #008cba;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.calculator-keys button:hover {
+    background: #0077a3;
+    transform: translateY(-7px);
+}
