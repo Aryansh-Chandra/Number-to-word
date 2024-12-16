@@ -12,29 +12,35 @@
       <h1>WordMyNumber</h1>
       <p>"Turn Digits Into Words – Seamlessly, Globally, Accurately!"</p>
     </div>
-
     <nav>
       <ul>
+        <li><a href="./index.html">Home</a></li>
         <li><a href="./about.html">About</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="home" class="welcome">
-    <div class="content">
-      <h2>Welcome to WordMyNumber</h2>
-      <p>
-        Work faster, smarter, and more efficiently with our intuitive tool that converts numbers into words instantly. 
-        Whether you’re drafting documents, creating invoices, or formatting checks, our converter simplifies the process with accuracy and ease.
-      </p>
-      <p>
-        Experience the seamless way to transform numbers into clear, readable text—saving you time and effort every step of the way!
-      </p>
-      <a href="login.html" class="btn">Sign Up / Login</a>
+  <section id="features" class="features">
+   
+    <div class="tabs">
+      <button>Letter Case</button>
+      <button> Indian / International System </button>
+      <button>Writing Cheque ?</button>
+    </div>
+      
+    <div class="converter">
+    <h3>Number to word converter</h3>
+        <p>Enter a number to convert it into its word format:</p>
+        <input type="text" id="numberInput" placeholder="Enter a number" />
+        <button id="convertButton">Convert</button>
+        <p id="result"></p>
     </div>
     
   </section>
-  </section>
+
+  <section ></section>
+  
+
   <footer>
     <p> WordMyNumber</p>
     <div class="social-links">
@@ -42,5 +48,7 @@
       <a href="https://www.instagram.com" target="_blank">Instagram</a>
       <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
     </div>
+  </footer>
+  <script src ="./first.js"></script>
 </body>
 </html>
