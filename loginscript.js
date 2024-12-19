@@ -74,3 +74,14 @@ loginSubmit.addEventListener('click', (e) => {
       alert("Invalid email or password.");
    }
 });
+
+const storedPassword = localStorage.getItem(password);
+
+
+if (storedPassword  === password) {
+   alert('Login successful!');
+   
+} else {
+   alert('Invalid username or password.');
+}
+
